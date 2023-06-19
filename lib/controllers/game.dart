@@ -188,7 +188,7 @@ Have fun."""
         posY: screenHeight - 120,
         onClick: pause,
         fileName: "Button_pause.png"
-    );
+    )..priority = 1;
     await add(pauseButton);
     buttons.add(pauseButton);
   }
