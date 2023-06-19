@@ -139,7 +139,7 @@ Steering:
 Tap/swipe right/left 
 to switch line
 
-Thats it.
+That's it.
 Nothing more.
 Have fun."""
     )..priority = 1;
