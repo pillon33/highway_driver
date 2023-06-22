@@ -221,6 +221,10 @@ Have fun."""
   }
 
   Future<void> gameOver() async {
+    //dispose all buttons
+    removeAll(buttons);
+    buttons = [];
+
     DialogButton button = DialogButton(
         w: 100,
         h: 100,
